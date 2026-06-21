@@ -1,10 +1,10 @@
+@"
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
   images: {
     unoptimized: true,
   },
 };
 
 module.exports = nextConfig;
+"@ | Set-Content -Path "next.config.js" -Encoding UTF8
