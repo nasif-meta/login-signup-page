@@ -61,15 +61,6 @@ export default function Background() {
 
       {/* Floating Particles */}
       <div ref={particlesRef} className="fixed inset-0 -z-10 pointer-events-none overflow-hidden" />
-
-      <style jsx>{`
-        @keyframes floatParticle {
-          0% { transform: translateY(100vh) translateX(0); opacity: 0; }
-          10% { opacity: 1; }
-          90% { opacity: 1; }
-          100% { transform: translateY(-10vh) translateX(40px); opacity: 0; }
-        }
-      `}</style>
     </>
   );
 }

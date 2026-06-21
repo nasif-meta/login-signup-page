@@ -154,13 +154,6 @@ function AuthContent() {
           </AnimatePresence>
         </div>
       </div>
-
-      <style jsx global>{`
-        @keyframes shine {
-          0% { transform: translateX(-100%) rotate(45deg); }
-          50%, 100% { transform: translateX(100%) rotate(45deg); }
-        }
-      `}</style>
     </div>
   );
 }

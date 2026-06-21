@@ -54,7 +54,7 @@ export default function OTPForm({ email, onVerify, onBack }: OTPFormProps) {
   const handleResend = () => {
     if (timer > 0) return;
     setTimer(60);
-    setOtp(["", "", "", "", "", """]);
+    setOtp(["", "", "", "", "", ""]);
     inputsRef.current[0]?.focus();
   };
 
